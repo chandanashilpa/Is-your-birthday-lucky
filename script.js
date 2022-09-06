@@ -15,7 +15,7 @@ buttonCheck.addEventListener("click", () => {
   } else if (inputLuckyNumber.value == "") {
     printMessage("Enter your lucky number");
   } else if (inputLuckyNumber.value < 1) {
-    printMessage("Enter a number greater than 1");
+    printMessage("Enter a number greater than 0");
   } else {
     var dateOfBirth = inputDateOfBirth.value.replaceAll("-", "");
     var luckyNumber = Number(inputLuckyNumber.value);
