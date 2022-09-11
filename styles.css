@@ -49,3 +49,14 @@ button {
   background-color: #fff;
   color: var(--primary);
 }
+#image {
+  width: 20%;
+  height: auto;
+  display: block;
+  margin: auto;
+  margin-top: 1rem;
+  border-radius: 0.5rem;
+}
+#output {
+  text-align: center;
+}
